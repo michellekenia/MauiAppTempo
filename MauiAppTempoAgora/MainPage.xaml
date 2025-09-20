@@ -14,7 +14,11 @@
             <Entry x:Name="txt_cidade" />
             <Button Text="Buscar Previsão" Clicked="Button_Clicked_Previsao" />
 
-            <Label x:Name="lbl_res" />
+            <Label x:Name="lbl_res" 
+                   LineBreakMode="WordWrap"
+                   VerticalOptions="Start"
+                   HorizontalOptions="FillAndExpand"
+                   Margin="0,0,0,10" />
 
             <WebView x:Name="wv_mapa" HeightRequest="500" />
 
