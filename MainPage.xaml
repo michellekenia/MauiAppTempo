@@ -1,0 +1,9 @@
+<!-- Substitua o Label existente (lbl_res) por este bloco com ScrollView -->
+<ScrollView VerticalOptions="FillAndExpand" 
+           HorizontalOptions="FillAndExpand" 
+           Margin="10">
+    <Label x:Name="lbl_res"
+           VerticalOptions="Start"
+           HorizontalOptions="Start"
+           LineBreakMode="WordWrap" />
+</ScrollView>
